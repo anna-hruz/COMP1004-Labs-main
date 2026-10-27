@@ -1,3 +1,31 @@
-#quote {color:rgb(95, 153, 56);}
-#top5 {font-size: 24; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: orangered;}
-#name {text-align:center; font-weight: bold; font-size:35; color:black;}
+
+  p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    text-weight: bold;
+    text-align: center;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  /* Grouping sector */
+  h1, p, a {
+    text-align: center;
+  }
+  body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://i.pinimg.com/1200x/78/8b/67/788b67996f8a02c79ee137a176e22ceb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+  
+
+#button {background-color: rgb(95, 153, 56); color: white; font-size: 20px; border-radius: 10px; padding: 10px 20px; cursor: pointer;}
+#top5 {background-color: rgb(86, 81, 81); color: white; font-size: 20px; border-radius: 10px; padding: 10px 20px; cursor: pointer;}
+#tr {background-color: rgb(207, 158, 233); color: white; font-size: 20px; border-radius: 10px; padding: 10px 20px;}
